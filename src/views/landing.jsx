@@ -6,28 +6,32 @@ function Landing() {
     const animationTl = gsap.timeline({ repeat: 0 });
 
     animationTl.to(".path", {
-      duration: 3,
+      duration: 2,
       strokeDashoffset: "0",
     });
-    animationTl.to(".path", { fill: "white", duration: 1 });
-    animationTl.to("#pathA", { x: "initial", duration: 1.5, delay: 0 });
-    animationTl.to(".slider", { width: "0%", duration: 2, delay: -1.5 });
-    animationTl.to(".letterA", {
-      x: "-100%",
-      duration: 5,
-      delay: 0,
-    });
+    animationTl.to(".path", { fill: "white", duration: 0.5 }, "-=1.3");
+    animationTl.to("#pathA", { x: "initial", duration: 1, delay: 0 }, 1);
+    animationTl.to(".slider", { width: "0%", duration: 2, delay: 0 }, 1);
+    animationTl.to(
+      ".letterA",
+      {
+        x: "-100%",
+        duration: 2,
+        delay: 1.5,
+      },
+      2
+    );
     animationTl.to(
       ".letterU",
       {
         x: "100%",
-        duration: 5,
-        delay: 0,
+        duration: 2,
+        delay: 1.5,
       },
-      "-=5"
+      2
     );
-    animationTl.to("letterA", { display: "none" });
-    animationTl.to("letterU", { display: "none" });
+    animationTl.to(".letterU", { display: "none" });
+    animationTl.to(".letterA", { display: "none" });
   }
 
   setTimeout(animateLanding, 500);

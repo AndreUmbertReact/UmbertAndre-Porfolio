@@ -12,6 +12,22 @@ function Landing() {
     animationTl.to(".path", { fill: "white", duration: 1 });
     animationTl.to("#pathA", { x: "initial", duration: 1.5, delay: 0 });
     animationTl.to(".slider", { width: "0%", duration: 2, delay: -1.5 });
+    animationTl.to(".letterA", {
+      x: "-100%",
+      duration: 5,
+      delay: 0,
+    });
+    animationTl.to(
+      ".letterU",
+      {
+        x: "100%",
+        duration: 5,
+        delay: 0,
+      },
+      "-=5"
+    );
+    animationTl.to("letterA", { display: "none" });
+    animationTl.to("letterU", { display: "none" });
   }
 
   setTimeout(animateLanding, 500);
@@ -72,7 +88,7 @@ function Landing() {
       <div className="letterU">
         <svg
           width="95%"
-          id="pathUu"
+          id="pathU"
           height="95"
           viewBox="0 0 374 95"
           fill="none"

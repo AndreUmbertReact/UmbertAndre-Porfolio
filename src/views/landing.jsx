@@ -1,8 +1,9 @@
 import React from "react";
 import gsap from "gsap";
+import { redirect } from "react-router-dom";
 
 function Landing() {
-  function animateLanding(params) {
+  function animateLanding() {
     const animationTl = gsap.timeline({ repeat: 0 });
 
     animationTl.to(".path", {
@@ -32,6 +33,9 @@ function Landing() {
     );
     animationTl.to(".letterU", { display: "none" });
     animationTl.to(".letterA", { display: "none" });
+    animationTl.to(".landingSection", { display: "none" });
+
+    return <Redirect to="/login" />;
   }
 
   setTimeout(animateLanding, 500);

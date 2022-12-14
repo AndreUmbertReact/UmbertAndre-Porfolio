@@ -5,6 +5,7 @@
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  background-color: transparent;
 }
 
 .letterA {
@@ -29,8 +30,8 @@
 .path {
   stroke: white;
   stroke-opacity: 1;
-  stroke-dasharray: 1000; /* make longer than line */
-  stroke-dashoffset: 1000;
+  stroke-dasharray: 3000; /* make longer than line */
+  stroke-dashoffset: 3000;
   stroke-width: 1;
   /* animation: link-animation 1s linear forwards; */
   fill: none;

@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.socialMedias {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.smIcon {
+  color: black;
+  cursor: pointer;
+  height: 10.063vw;
+}

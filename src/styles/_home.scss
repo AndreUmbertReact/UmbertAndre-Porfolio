@@ -1,7 +1,14 @@
 .home {
   background-color: white;
-  width: 96vw;
-  height: 98.3vh;
-  margin: 0.8576vh 2vw;
-  //   border: 1px solid #242424;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeContainer {
+  width: 98%;
+  height: 99%;
+  background-color: transparent;
 }

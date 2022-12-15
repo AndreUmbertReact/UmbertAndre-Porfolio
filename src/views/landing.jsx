@@ -1,6 +1,5 @@
 import React from "react";
 import gsap from "gsap";
-import { redirect } from "react-router-dom";
 
 function Landing() {
   function animateLanding() {
@@ -34,11 +33,9 @@ function Landing() {
     animationTl.to(".letterU", { display: "none" });
     animationTl.to(".letterA", { display: "none" });
     animationTl.to(".landingSection", { display: "none" });
-
-    return <Redirect to="/login" />;
   }
 
-  setTimeout(animateLanding, 500);
+  setTimeout(animateLanding, 1000);
 
   return (
     <div className="landingSection">

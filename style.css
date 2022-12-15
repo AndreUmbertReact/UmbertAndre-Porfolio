@@ -1,5 +1,22 @@
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.socialMedias {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.smIcon {
+  color: black;
+  cursor: pointer;
+  height: 10.063vw;
+}
+
 * {
-  background-color: #242424;
   margin: 0;
   font-size: 16px;
 }
@@ -76,7 +93,15 @@
 }
 .home {
   background-color: white;
-  width: 96vw;
-  height: 98.3vh;
-  margin: 0.8576vh 2vw;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeContainer {
+  width: 98%;
+  height: 99%;
+  background-color: transparent;
 }/*# sourceMappingURL=style.css.map */

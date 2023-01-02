@@ -7,9 +7,8 @@ import Home from "../views/home";
 function Header() {
   return (
     <div className="header">
-      <Link to={"/"} element={<Home />}>
+      <Link className="logo" to={"/"} element={<Home />}>
         <svg
-          width="50%"
           height="10.063vw"
           viewBox="0 0 185 95"
           fill="none"

@@ -1,4 +1,5 @@
 .header {
+  margin-top: 2vh;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -11,7 +12,11 @@
 }
 
 .smIcon {
-  color: black;
+  color: rgb(114, 114, 114);
   cursor: pointer;
+  height: 10.063vw;
+}
+
+.logo {
   height: 10.063vw;
 }

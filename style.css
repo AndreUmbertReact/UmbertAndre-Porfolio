@@ -1,4 +1,5 @@
 .header {
+  margin-top: 2vh;
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -11,8 +12,12 @@
 }
 
 .smIcon {
-  color: black;
+  color: rgb(114, 114, 114);
   cursor: pointer;
+  height: 10.063vw;
+}
+
+.logo {
   height: 10.063vw;
 }
 
@@ -101,7 +106,140 @@
 }
 
 .homeContainer {
-  width: 98%;
+  width: 80%;
   height: 99%;
   background-color: transparent;
+}
+
+.personalSection {
+  margin-top: 5vh;
+  font-family: "Lato", sans-serif;
+  display: flex;
+}
+
+.borderLeft {
+  width: 1px;
+  background-color: rgb(114, 114, 114);
+}
+
+.presentation {
+  margin-left: 10%;
+}
+
+.skillsSection {
+  margin-top: 5vh;
+  font-family: "Lato", sans-serif;
+}
+
+.skillsIconsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.skillsTitle {
+  padding-bottom: 1vh;
+}
+
+.individualSkillIcon {
+  width: 25%;
+  height: 3vh;
+}
+
+.skillName {
+  display: block;
+  font-size: 3.5vw;
+}
+
+.skillIcon {
+  display: block;
+  transform: translateX(100%);
+}
+
+.reactIcon {
+  fill: #61dbfb;
+}
+
+.javascriptIcon {
+  fill: #f0db4f;
+  background-color: #323330;
+}
+
+.htmlIcon {
+  fill: #f06529;
+}
+
+.cssIcon {
+  fill: #2965f1;
+}
+
+.tailwindcssIcon {
+  fill: #4dc0b5;
+}
+
+.nodejsIcon {
+  fill: #3c873a;
+}
+
+.postmanIcon {
+  fill: #ef5b25;
+}
+
+.bootstrapIcon {
+  fill: #553c7b;
+}
+
+.vue3Icon {
+  fill: #41b883;
+}
+
+.sassIcon {
+  fill: #cd6799;
+}
+
+.swaggerIcon {
+  fill: rgb(43, 175, 43);
+}
+
+.mysqlIcon {
+  fill: #00758f;
+}
+
+.mongodbIcon {
+  fill: #3fa037;
+}
+
+.materialuiIcon {
+  fill: #2196f3;
+}
+
+.gitIcon {
+  fill: #f1502f;
+}
+
+.selectsSection {
+  font-family: "Lato", sans-serif;
+  margin-top: 5vh;
+}
+
+.select {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1vh;
+}
+
+.borderTop {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+.selectContent {
+  display: flex;
+}
+
+.selectText {
+  font-size: 0.9em;
+  padding-left: 3%;
 }/*# sourceMappingURL=style.css.map */
